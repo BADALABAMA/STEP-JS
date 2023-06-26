@@ -10,7 +10,7 @@
 
 // i++ =                            i = i + 1
 // !for
-// var string = "Hi , geys! ;)" 
+// var string = "Hi , geys! ;)"
 
 // for(var i = 0; i < string.length; i++){
 //     console.log(string[i])
@@ -27,8 +27,7 @@
 // while(false) {
 //     i++;
 //     console.log(i)
-// } 
-
+// }
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!HW!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 // 1) Get user : name , email , password , age +
@@ -42,7 +41,7 @@
 // 7) If all above is true -> console -> Welcome!
 // Otherwise -> Go out of here!
 
-// Worst , Best , Average 
+// Worst , Best , Average
 
 // var validation = {
 //     isValidName : false,
@@ -51,15 +50,14 @@
 //     isValidAge : false,
 // }
 
-
 // while(!validation.isValidName) {
 //     var userName = prompt("What's ur name ?");
 
 //     if(userName.length > 2){
 //         validation.isValidName = true;
-//         break;    
+//         break;
 //     }
-   
+
 // }
 
 // if (validation.isValidName) {
@@ -71,7 +69,7 @@
 //             var char = userEmail[i];
 
 //             if(char === "@"){
-//                 validation.isValidEmail = true; 
+//                 validation.isValidEmail = true;
 //                 break;
 //             }
 //         }
@@ -88,7 +86,6 @@
 //         for(var i = 0 ; i < userPassword.length ;i++) {
 //             var char = parseInt(userPassword[i]);
 
-           
 //             if (!isFinite(char)) {
 //                 console.log("Here");
 //                 isNumberInPassword = true;
@@ -97,7 +94,7 @@
 //                 isStrInPassword = true;
 //             }
 //         }
-        
+
 //         if(userPassword.length > 7 && isNumberInPassword && isStrInPassword) {
 //             validation.isValidPassword = false
 
@@ -108,9 +105,51 @@
 // }
 // var userAge = prompt("What's ur name ?");
 
-// Task 
-// 1) Validation for : name and age 
-// name - should contain : . as a first character in the string 
+// Task
+// 1) Validation for : name and age
+// name - should contain : . as a first character in the string
 // name - should contain : !  as a last character in the string
 
 // 2) age - user age should divide on 4 without part after divide operation
+
+// var validation = {
+//   isValidName: false,
+//   isValidAge: false,
+// };
+
+// while (!validation.isValidName) {
+//   var userName = prompt("What's ur name ?");
+
+//   if (userName.startsWith('.') && userName.endsWith('!')) {
+//     validation.isValidName = true;
+
+//     break;
+//   }
+//   while (!validation.isValidAge) {
+//     var userAge = prompt("What's ur age ?");
+
+//     if (userAge % 4 !== 0) {
+//       validation.isValidAge = true;
+//       break;
+//     }
+//   }
+
+//   for (var i = 0; i < userName.length; i++) {
+//     var firstChar = userName[0];
+
+//     if (firstChar === '.') {
+//       validation.isValidName = true;
+
+//       break;
+//     }
+//   }
+//   for (var i = 0; i < userName.length; i++) {
+//     var lastChar = userName[i];
+
+//     if (lastChar === '!') {
+//       validation.isValidName = true;
+
+//       break;
+//     }
+//   }
+// }
