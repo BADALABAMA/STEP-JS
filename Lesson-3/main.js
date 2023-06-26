@@ -110,8 +110,10 @@
 // name - should contain : . as a first character in the string
 // name - should contain : !  as a last character in the string
 
+// if name is correct
 // 2) age - user age should divide on 4 without part after divide operation
 
+<<<<<<< HEAD
 // var validation = {
 //   isValidName: false,
 //   isValidAge: false,
@@ -153,3 +155,18 @@
 //     }
 //   }
 // }
+=======
+
+// Homework
+// ИМТ 
+// Get height and weight
+// Formula : weight / _,__ * _,__ 
+// Example : 77(вес Кирилла) / 1,85 * 1,85 (Рост Кирилла в квадрате) (Кирилл - это 185 cм 77 кг)
+//  16 – 18,5      ►  Недостаточная масса тела (дефицит);
+//  18,5 – 25     ►  Норма;
+//  25 – 30       ►  Избыточная масса тела (состояние, предшествующее ожирению);
+//  30 – 35       ►  Ожирение 1-й степени;
+//  35 – 40       ►  Ожирение 2-й степени;
+//  40 и более ►  Ожирение 3-й степени.
+
+>>>>>>> 1f1faff43acf1da060e0e89876ef9ee1e7df88ab
